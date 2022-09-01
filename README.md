@@ -9,5 +9,5 @@
 #### => Para para o projeto.
     Ctrl+C
 
-###### OBS: 🚨🚦 VOCÊ PRECISA CRIAR A PASTA TOKENS E A PASTA DO ARQUIVO .JSON 🚦🚨
+###### OBS: 🚨 VOCÊ PRECISA CRIAR A PASTA TOKENS E A PASTA DO ARQUIVO .JSON 🚨
 
