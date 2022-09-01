@@ -1,7 +1,8 @@
 # dialogflow-wppconnect-chatbot
 # projeto criado na live.
 
-*PARA RODAR O PROJETOEXECUTE OS COMANDOS ABAIXO:
+# PARA RODAR O PROJETOEXECUTE OS COMANDOS ABAIXO:
+
 => npm install
     Para atualizar as depedencias dos projeto.
 => node index.js
