@@ -6,7 +6,7 @@ var __importDefault =
   };
 
 // FIXME: CRIAR AS CONST DAS INTENTS
-const welcome = require("./dialogflow/intents/wlecome");
+const welcome = require("./dialogflow/intents/welcome");
 const Intent_menu = require('./dialogflow/intents/intent_menu');
 
 // TODO: SETAR AS DEPENDECIAS NO PROJETO
