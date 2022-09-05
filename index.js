@@ -6,7 +6,7 @@ var __importDefault =
   };
 
 // FIXME: CRIAR AS CONST DAS INTENTS
-const welcome_intent = require("./dialogflow/intents/wlecome");
+const welcome = require("./dialogflow/intents/wlecome");
 const Intent_menu = require('./dialogflow/intents/intent_menu');
 
 // TODO: SETAR AS DEPENDECIAS NO PROJETO
@@ -100,7 +100,7 @@ function start(client) {
         });
 
       let TextResponse = await executeQueries(
-        // FIXME: ID DO PROJETO DO DIALOGFLOW
+      // FIXME: ID DO PROJETO DO DIALOGFLOW
         "dialogflow-live-yywi",
         message.from,
         [message.body],
@@ -113,7 +113,7 @@ function start(client) {
       switch (TextResponse.intent.displayName) {
 
         case "DefaultWelcomeIntent":
-          welcome_intent.welcome_intent(client, message, TextResponse);
+          welcome.welcome(client, message, TextResponse);
           break;
 
         case "Intent_menu":

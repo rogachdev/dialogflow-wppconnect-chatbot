@@ -2,7 +2,7 @@
 
 Object.defineProperty(exports, "__esModule", { value: true });
 
-exports.welcome_intent = void 0;
+exports.welcome = void 0;
 
 var __importDefault =
   (this && this.__importDefault) ||
@@ -13,7 +13,7 @@ var __importDefault =
   
 const moment = require("moment");
 
-async function welcome_intent(client, message, _intent) {
+async function welcome(client, message, _intent) {
   if (
     _intent.fulfillmentText === "Iniciando o Projeto..." &&
     message.isGroupMsg === false
@@ -32,4 +32,4 @@ async function welcome_intent(client, message, _intent) {
   }
 }
 
-exports.welcome_intent = welcome_intent;
+exports.welcome = welcome;
