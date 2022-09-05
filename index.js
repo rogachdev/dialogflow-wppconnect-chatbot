@@ -109,11 +109,12 @@ function start(client) {
 
       
       await client.sendText(message.from, TextResponse.fulfillmentText);
-
+      
+        // FIXME: CONDICIONAL PARA AS INTENTS.
       switch (TextResponse.intent.displayName) {
 
         case "DefaultWelcomeIntent":
-          welcome.welcome(client, message, TextResponse);
+          welcome.welcome(client, message, TextResponse); 
           break;
 
         case "Intent_menu":
