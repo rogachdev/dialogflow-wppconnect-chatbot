@@ -11,7 +11,6 @@ var __importDefault =
     return mod && mod.__esModule ? mod : { default: mod };
   };
 
-  
 
 async function NomeConst(client, message, _intent) {
   if ( _intent.fulfillmentText === "frase do textResponse" &&  message.isGroupMsg === false) {
